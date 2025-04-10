@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    transition: 0.5s;
+}
+
+header > h1 {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+    height: 550px;
+    font-size: 20px;
+}
+
+main > p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input {
+    background-color: rgb(115, 125, 126);
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+input:hover {
+    background-color: rgba(137, 151, 151, 0.815);
+}
+
+footer > p {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
