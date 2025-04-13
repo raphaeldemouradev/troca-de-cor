@@ -12,11 +12,12 @@ header > h1 {
     background-color: cadetblue;
     text-align: center;
     padding: 10px;
+    margin-bottom: 100px;
 }
 
 main {
     text-align: center;
-    height: 550px;
+    height: 450px;
     font-size: 20px;
 }
 
