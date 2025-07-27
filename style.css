@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: cadetblue;
+    background-color: #84b5d6;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -19,12 +19,10 @@ header > h1 {
 }
 
 main {
-    height: 82.4vh;
-}
-
-section {
-    text-align: center;
-    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84.2vh;
 }
 
 section > p {
@@ -38,6 +36,7 @@ input {
     border: 2px solid black;
     padding: 10px 20px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 input:hover {
@@ -45,7 +44,7 @@ input:hover {
 }
 
 footer > p {
-    background-color: cadetblue;
+    background-color: #84b5d6;
     text-align: center;
     padding: 10px;
     font-weight: 600;
